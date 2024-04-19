@@ -1,0 +1,101 @@
+body{
+    background: linear-gradient(45deg,rgb(171, 246, 242),rgb(135, 150, 235));
+/* position: relative; */
+}
+.main{
+    width: 100%;
+    display: flex;
+
+}
+.card{
+    position: absolute;
+    background-color: white;
+    width: 25vw;
+    height: 530px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 70px;
+    justify-content: space-around;
+}
+.card-2{
+    position: absolute;
+    background-color: white;
+    width: 25vw;
+    height: 530px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 450px;
+    justify-content: space-around;
+}
+.card-3{
+    position: absolute;
+    background-color: white;
+    width: 25vw;
+    height: 530px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 835px;
+    justify-content: space-around;
+}
+.card img, .card-3 img{
+    width: 25vw;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-2 img{
+    width: 25vw;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text{
+    padding: 10px;
+}
+.text button{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background: linear-gradient(5deg,#e6e3e3,rgb(18, 109, 237));
+}
+.card-2 .text button{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background: linear-gradient(5deg,#e6e3e3,rgb(237, 219, 18));
+}
+.card-3 .text button{
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    background: linear-gradient(5deg,#e6e3e3,rgb(237, 117, 18));
+}
+.name img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-left: 10px;
+   margin-top: 30px;
+}
+.name{
+    position: relative;
+}
+.name h3{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+.name p{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 70px;
+}
